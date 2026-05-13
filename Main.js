@@ -88,5 +88,5 @@ const ActiveNav = (() => {
   };
 
   window.addEventListener('scroll', update, { passive: true });
-  update(); // run once on init
+  update();
 })();
